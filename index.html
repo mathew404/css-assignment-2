@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata and styles for the webpage -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> 
+  <title>Toblerone Page</title>
+</head>
+
+<body>
+  <!-- Header section containing logo, title, and navigation -->
+  <header>
+    <div class="header-content">
+      <img src="https://i.pinimg.com/736x/9d/ff/98/9dff981228f834e1cb35c1656d7c0a43.jpg" 
+           alt="Toblerone Logo" class="header-logo"> 
+      <h1>Toblerone - The Iconic Swiss Chocolate</h1> 
+    </div>
+    <nav>
+      <ul>
+        <!-- Navigation links -->
+        <li><a href="#Shop">Shop</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Nutrition">Nutrition</a></li>
+        <li><a href="#Contact-form">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content of the page -->
+  <main>
+    <!-- Fun facts section -->
+    <section id="facts">
+      <h2>Fun Facts About Toblerone</h2>
+      <ul>
+        <!-- List of fun facts about Toblerone -->
+        <li>Toblerone was created in 1908 by Theodor Tobler and Emil Baumann in Bern, Switzerland.</li>
+        <li>Its distinctive triangular shape was inspired by the Swiss Alps.</li>
+        <li>Toblerone is known for its smooth milk chocolate, honey, and almond nougat.</li>
+        <li>The name "Toblerone" is a portmanteau of "Tobler" and "Torrone," the Italian word for honey and almond nougat.</li>
+        <li>Toblerone bars come in various sizes, including the iconic oversized bars often purchased as gifts.</li>
+      </ul>
+    </section>
+
+    <!-- Image showcase section -->
+    <section id="imagery">
+      <h2>Toblerone</h2>
+      <div class="images">
+        <!-- Image and description for each chocolate type -->
+        <div class="image-container">
+          <img src="https://i.ebayimg.com/images/g/88IAAOSw1ptkIgzx/s-l1200.jpg" alt="Toblerone milk chocolate">
+          <p class="chocolate-desc">Classic milk chocolate with honey and almond nougat.</p>
+          <button class="shop-now">
+            <!-- SVG icon for the button -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+              <path d="M7 4V2H5v2H2v2h3v2h2V6h10v2h2V6h3V4h-3V2h-2v2H7zM2 20v2h20v-2H2zM4 10v6h2v-4h12v4h2v-6H4z"/>
+            </svg>
+            Shop Now
+          </button>
+        </div>
+        <!-- Add similar structure for dark and white chocolates -->
+      </div>
+    </section> 
+    
+    <!-- Video section -->
+    <section id="video">
+      <h2>Watch the Toblerone Commercial</h2>
+      <p>Discover the magic of Toblerone in this captivating commercial!</p>
+      <div class="video-container">
+        <!-- Embedded YouTube video -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7qPWrMXdXNo?si=xjqji31ZkSwlOq5Z" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    
+    <!-- Nutritional information section -->
+    <section id="nutrition">
+      <h2>Nutritional Information</h2>
+      <table>
+        <!-- Table for nutritional details -->
+        <tr>
+          <th>Per Serving</th>
+          <th>Amount</th>
+        </tr>
+        <tr>
+          <td>Calories</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Total Fat</td>
+          <td>8g</td>
+        </tr>
+        <tr>
+          <td>Saturated Fat</td>
+          <td>5g</td>
+        </tr>
+        <tr>
+          <td>Sodium</td>
+          <td>25mg</td>
+        </tr>
+        <tr>
+          <td>Total Carbohydrates</td>
+          <td>17g</td>
+        </tr>
+        <tr>
+          <td>Sugar</td>
+          <td>16g</td>
+        </tr>
+        <tr>
+          <td>Protein</td>
+          <td>2g</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <div id="logo">
+      <!-- Footer logo -->
+      <img src="https://media.licdn.com/dms/image/v2/D4D12AQGuR_nnDU6pcA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711205436511?e=2147483647&v=beta&t=tXkABrBg1sKmUlcfvXhY392uFWu6CVHHT_kHqCQgSPU" alt="Toblerone Logo">
+    </div>
+    
+    <h3>About Toblerone Company</h3> 
+    <!-- Contact details -->
+    <address id="company-info">
+      <p>Chocolatestrasse 1, Bern, Switzerland</p>
+      <p>Phone: +41 31 555 1212</p>
+      <p>Email: <a href="mailto:info@toblerone.com">info@toblerone.com</a></p>
+    </address>
+    
+    <!-- Contact form -->
+    <div id="contact-form">
+      <h3>Contact Us</h3>
+      <form>
+        <!-- Input fields for the contact form -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+  
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
